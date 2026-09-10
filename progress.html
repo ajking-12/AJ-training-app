@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Progress • AJ Training</title>
+<meta name="theme-color" content="#0b0f14">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar"><div class="inner"><a class="brand" href="./index.html">AJ <span>TRAINING</span></a>
+<nav class="nav"><a href="./index.html">Week</a><a href="./library.html">Library</a><a href="./progress.html">Progress</a></nav></div></header>
+<main class="wrap">
+<div class="eyebrow">Track the trend</div><h1>Progress</h1>
+<p>Use these as simple current benchmarks. Your phone stores the values locally.</p>
+<div class="progressbar"><div id="goalBar"></div></div><p id="goalText" class="small"></p>
+<div class="grid metric-grid" style="margin-top:14px">
+<div class="card"><strong>Bodyweight</strong><input id="weight" class="input" inputmode="decimal" placeholder="235"></div>
+<div class="card"><strong>Waist</strong><input id="waist" class="input" placeholder='e.g. 41.5"'></div>
+<div class="card"><strong>Broad jump</strong><input id="broad" class="input" placeholder="e.g. 7'6&quot;"></div>
+<div class="card"><strong>30 yd sprint</strong><input id="sprint" class="input" placeholder="e.g. 4.72 s"></div>
+<div class="card"><strong>Front squat</strong><input id="frontsquat" class="input" placeholder="e.g. 255 × 5"></div>
+<div class="card"><strong>Trap bar</strong><input id="trapbar" class="input" placeholder="e.g. 365 × 3"></div>
+</div>
+<button class="btn primary" id="saveProgress" style="margin-top:14px">Save progress</button>
+<h2>Cut target</h2>
+<div class="card"><p>Start: ~235 lb • Goal: ~195 lb. Judge progress by weekly average weight plus waist, photos, strength, and athletic markers—not a single weigh-in.</p></div>
+<div class="footer">Train for strength, power, conditioning, and longevity.</div></main>
+<div class="timer" id="restTimer"><span>Rest</span><strong id="timerOut">0:00</strong><button class="btn" id="timerClose">Close</button></div>
+<script src="./app.js"></script>
+</body></html>

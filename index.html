@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Home • AJ Training</title>
+<meta name="theme-color" content="#0b0f14">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar"><div class="inner"><a class="brand" href="./index.html">AJ <span>TRAINING</span></a>
+<nav class="nav"><a href="./index.html">Week</a><a href="./library.html">Library</a><a href="./progress.html">Progress</a></nav></div></header>
+<main class="wrap">
+<section class="hero">
+<div class="eyebrow">Current Block</div>
+<h1>Get lighter. Get stronger. Move faster.</h1>
+<p>5-day athletic strength plan built around power, strength, conditioning, knee/ankle durability, and a gradual cut from ~235 toward ~195 lb.</p>
+<div class="progressbar" style="margin-top:14px"><div id="goalBar"></div></div>
+<p id="goalText" class="small"></p>
+</section>
+
+<h2>This week</h2>
+<div class="grid days">
+<a class="daycard" data-day="monday" href="./monday.html"><div><span class="badge">MON</span><div class="dayname">Power + Squat</div></div><div class="dayfocus">Clean • Front squat • Lower</div></a>
+<a class="daycard" data-day="tuesday" href="./tuesday.html"><div><span class="badge">TUE</span><div class="dayname">Upper + Engine</div></div><div class="dayfocus">Bench • Pull • Metcon</div></a>
+<a class="daycard" data-day="wednesday" href="./wednesday.html"><div><span class="badge">WED</span><div class="dayname">Athlete Day</div></div><div class="dayfocus">Jump • Sprint • Trap bar</div></a>
+<a class="daycard" data-day="thursday" href="./thursday.html"><div><span class="badge">THU</span><div class="dayname">Upper Power</div></div><div class="dayfocus">Push press • Pull • Ski</div></a>
+<a class="daycard" data-day="friday" href="./friday.html"><div><span class="badge">FRI</span><div class="dayname">Full Body</div></div><div class="dayfocus">Hang clean • Carry • AMRAP</div></a>
+</div>
+
+<h2>Rules for the block</h2>
+<div class="card">
+<ul>
+<li>Power work comes first. Stop a power exercise when speed or landing quality drops.</li>
+<li>Main strength work starts around RPE 6–7 and builds toward 7–8.</li>
+<li>Easy second sessions stay easy. They are activity/recovery, not another hard workout.</li>
+<li>For pain beyond normal training discomfort—especially knee pain that changes your mechanics—reduce or stop the provoking movement.</li>
+<li>Nutrition drives the cut. Training's job is to preserve/build strength and athleticism.</li>
+</ul>
+</div>
+<div class="footer">Train for strength, power, conditioning, and longevity.</div></main>
+<div class="timer" id="restTimer"><span>Rest</span><strong id="timerOut">0:00</strong><button class="btn" id="timerClose">Close</button></div>
+<script src="./app.js"></script>
+</body></html>
